@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  <title>Frontend Mentor | Product preview card component</title>
+  <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+</head>
+<body class="bg-[#f2ebe3] flex justify-center items-center flex-col gap-2" style="font-family: 'Montserrat'">
+  <div class="flex justify-center w-[35rem] h-4/5 mt-[15%] rounded-xl overflow-hidden bg-white max-sm:flex-col max-sm:w-[90%]">
+    <div class="left w-1/2 h-2/3 max-sm:w-full">
+      <img src="./images/image-product-desktop.jpg" alt="header" class="w-full max-sm:hidden"/>
+      <img src="./images/image-product-mobile.jpg" alt="" class="hidden max-sm:inline">
+    </div>
+    <div class="right w-1/2 h-2/3 p-6 max-sm:w-full">
+        <h1 class="text-xs uppercase tracking-[.4em]">Perfume</h1>
+        <h1 class="text-[2em] font-black leading-[.86em] w-4/5 capitalize mt-5 font-extrabold" style="font-family: 'Montserrat,sans-serif';">Gabrielle essence eau de parfum</h1>
+        <p class="text-[.86em] mt-8 text-gray-400 font-medium">A floral,solar and voluptuous interpretation composed by Olivier Polge,Perfumer-Creator for the House of CHANEL.</p>
+       <div class="price flex items-center gap-2 mt-6 gap-4">
+        <h4 class="text-3xl  font-extrabold bg-green" style="font-family: 'Fraunces';color: #3c8067;">$149.99<h6 class="line-through font-medium text-sm text-gray-600" style="font-family: 'Montserrat';">$169.99</h6n></h4>
+       </div> 
+       <button class="w-full h-[3rem] mt-5 rounded-xl text-white font-medium bg-[#3c8067] hover:bg-[#1c232b]"><i class="ri-shopping-cart-2-line"></i> Add to Cart</button>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="text-blue-700">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/adityas-github" class="text-blue-700">Aditya M.</a>.
+  </div>
+</body>
+
+</html>
