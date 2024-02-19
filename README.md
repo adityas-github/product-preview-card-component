@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/adityas-github/product-preview-card-component.git)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Live Site URL: [Netlify](https://product-card-preview-adi.netlify.app/)
 
 ## My process
 
